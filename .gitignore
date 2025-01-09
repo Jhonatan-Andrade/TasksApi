@@ -1,0 +1,7 @@
+node_modules
+dist
+prisma/migrations
+prisma/dev.db
+.env
+package-lock.json
+pnpm-lock.yaml
