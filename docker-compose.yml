@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres-tasksdb
+    ports:
+      - '5433:5432'
+    environment:
+      POSTGRES_USER : tasks
+      POSTGRES_PASSWORD : tasks
+      POSTGRES_DB : tasksdb
